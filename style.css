@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero{
+    background-image: url("./images/appleComputer.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    
+
+}
+.menu ul li{
+    padding: 20px;
+    color: white;
+}
+
+.main{
+    position: absolute;
+    left: 35%;
+    top: 50%;
+   text-align: center;
+}
+.main-heading{
+    color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.card{
+    padding: 30px;
+    text-align: center;
+}
+
+.card h2{
+    padding-bottom: 20px;
+}
+
+.second-section{
+    background-color: rgb(241, 233, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apple{
+    width: 500px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+
+.design{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+
+
+}
+
+.p-design{
+   width: 70%;
+   text-align: center;
+   
+
+}
+
+button{
+    padding: 10px 20px ;
+    background-color: rgb(255, 196, 0);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.clients h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.items{
+    background-color: rgb(245, 237, 237);
+    margin: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.item p{
+    margin-bottom: 20px;
+}
+.item{
+    margin-right: 20px;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 136, 0);
+    padding: 40px;
+    color: white;
+}
+
+input{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+
+}
+
+.subscribe-btn{
+    padding: 12px 40px ;
+    background-color: rgb(31, 30, 29);
+    color: white;
+    border-radius: 20px;
+
+   
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(19, 18, 18);
+    padding: 30px;
+}
+
+.links .footer-links{
+    display: flex;
+    list-style: none;
+    color: gray;
+}
+
+.footer-links li{
+    padding: 20px;
+}
+
+.copyright{
+    color: gray;
+    margin-top: 20px;
+}
